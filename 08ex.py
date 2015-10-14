@@ -1,7 +1,9 @@
 # http://learnpythonthehardway.org/book/ex8.html
 
+# initialize variable with 4 %r's
 formatter = "%r %r %r %r"
 
+# print formatter multiple times, with different values each time
 print formatter % (1, 2, 3, 4)
 print formatter % ("one", "two", "three", "four")
 print formatter % (True, False, False, True)
