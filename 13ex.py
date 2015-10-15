@@ -2,8 +2,10 @@
 
 from sys import argv
 
+# playing with argv, assigning the arguments to variables
 script, first, second, third = argv
 
+# print the variables from argv
 print "The script is called:", script
 print "Your first variable is:", first
 print "Your second variable is:", second
