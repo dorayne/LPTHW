@@ -1,5 +1,7 @@
 # http://learnpythonthehardway.org/book/ex18.html
 
+# playing with functions
+
 # this one is like your scripts with argv
 def print_two(*args):
     arg1, arg2 = args
