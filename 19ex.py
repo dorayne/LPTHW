@@ -1,6 +1,10 @@
 # http://learnpythonthehardway.org/book/ex19.html
 
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
+    '''
+    Small function that prints the numbers of cheese and crackers
+    No further computation is made with the function variables
+    '''
     print "You have %d cheeses!" % cheese_count
     print "You have %d boxes of crackers!" % boxes_of_crackers
     print "Man, that's enough for a party!"
