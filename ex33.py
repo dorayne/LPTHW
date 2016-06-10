@@ -5,13 +5,13 @@ number = []
 
 while i < 6:
     print "At the top i is %d" % i
-    numbers.append(i)
+    number.append(i)
     
     i = i + 1
-    print "Numbers now: ", numbers
+    print "Numbers now: ", number
     print "At the bottom i is %d" % i
 
-print "The number: "
+print "The numbers: "
 
-for num in numbers:
+for num in number:
     print num
